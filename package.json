@@ -1,13 +1,13 @@
 {
-  "name": "loftschool-builder",
+  "name": "igosheva-builder",
   "version": "1.0.0",
-  "author": "a.kalin",
-  "license": "ISC",
+  "author": "a.igosheva",
+  "license": "",
   "scripts": {},
   "devDependencies": {
     "browser-sync": "~2.18.7",
     "del": "~2.2.2",
-    "gulp": "git+https://git@github.com/gulpjs/gulp.git#4.0",
+    "gulp": "github:gulpjs/gulp#4.0",
     "gulp-autoprefixer": "~3.1.1",
     "gulp-cheerio": "~0.6.2",
     "gulp-concat": "~2.6.1",
@@ -26,5 +26,16 @@
   },
   "dependencies": {
     "normalize.css": "~5.0.0"
-  }
+  },
+  "description": "> Сборка работает на gulp версии 4.0.",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igosheva/gulp-builder-dz1.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/igosheva/gulp-builder-dz1/issues"
+  },
+  "homepage": "https://github.com/igosheva/gulp-builder-dz1#readme"
 }
