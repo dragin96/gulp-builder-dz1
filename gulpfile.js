@@ -40,3 +40,6 @@ $.gulp.task('default', $.gulp.series(
     'serve'
   )
 ));
+$.gulp.task('zip', $.gulp.series(
+  'zip'
+));
